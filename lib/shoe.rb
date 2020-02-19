@@ -6,7 +6,7 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    if brand.include?self
+    if brand.include?"Nike"
      puts "brand already included"
    else 
      
